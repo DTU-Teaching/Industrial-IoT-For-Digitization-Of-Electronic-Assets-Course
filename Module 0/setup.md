@@ -75,11 +75,13 @@ This setup allows you to use VSCode running on Windows, but all the programming 
 
 
 ### Clone this repository
-Optionally create a folder where you want to store your git projects.
+Optionally create a folder where you want to store your git projects. Cloning the repository will create a copy in a new folder containing the full history of the repository.
 
 ```bash
 git clone https://github.com/DTU-Teaching/Industrial-IoT-For-Digitization-Of-Electronic-Assets-Course.git
 ```
+
+Later you can update by running `git pull` inside the folder containing the repository.
 
 change into the repository and open it in VSCode
 
@@ -87,6 +89,9 @@ change into the repository and open it in VSCode
 code .
 ```
 
+VSCode also detects the git repository and provides a gui to interact with it
+
+#### WSL note
 In the bottom left you can see that VSCode is connected to WSL and which Distribution it is using. If you are running a program in this mode, it is executed in WSL and the terminal you can open is running in WSL as well.
 More information is available here: https://code.visualstudio.com/docs/remote/wsl
 
@@ -150,7 +155,6 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install azure-functions-core-tools-4
 ```
-
 
 ## Azure
 Make sure to use a account different from the DTU provided account!
