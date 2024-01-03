@@ -54,8 +54,8 @@ You will also be asked to enter a passphrase. You can leave this empty by pressi
 
 Now you should have two files in your home directory. One called ```id_rsa``` and one called ```id_rsa.pub```. The first
 one is your private key, and the second one is your public key. Now we need to copy the public key to the PLC. To do
-this, we can use the ```ssh-copy-id``` command. Type ```ssh-copy-id pi@192.168.0.1``` and enter the password. From now
-on, you can connect to the PLC without entering a password. Try it out by typing ```ssh pi@192.168.0.1```.
+this, we can use the ```ssh-copy-id``` command. Type ```ssh-copy-id pi@raspberrypi-grpx-client``` and enter the password. From now
+on, you can connect to the PLC without entering a password. Try it out by typing ```ssh pi@raspberrypi-grpx-client```.
 
 ## Remote Development
 
