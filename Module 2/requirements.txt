@@ -1,0 +1,4 @@
+azure-iot-device
+psycopg2-binary
+pandas
+azure-functions
