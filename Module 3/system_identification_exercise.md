@@ -143,7 +143,7 @@ rrse = ...
 In today's lesson, we defined the residuals as the portion of the validation data not explained by the model and assumed the so-called *whiteness condition*, which states that the model's error follows a normal distribution $\epsilon(t) \sim \mathcal{N}(0,\sigma^2) $, with:
 $$
 \begin{align*}
-\boxed{\epsilon_t = y_t - \hat{y}_t}
+\epsilon_t = y_t - \hat{y}_t
 \end{align*}
 $$
 
