@@ -63,8 +63,9 @@ Under your Subscription on Azure select Resource providers and search for micros
 ![](imgs/enable_eventgrid.png)
 
 #### Create User for the Azure function
+
 For security reasons we are creating a separate user with credentials and minimal permissions.
-By right clicking on the Login/Group Roles create a new Login/Group role...
+Using pgAdmin by right clicking on the Login/Group Roles create a new Login/Group role...
 Enter a name as username in the General tab and set a password on the definition tab, additional enable Can login? on the Privileges tab. Now save the user.
 
 By default the user has no rights, so to enable the user to write to the database where we store the data the appropriate rights have to be granted.
