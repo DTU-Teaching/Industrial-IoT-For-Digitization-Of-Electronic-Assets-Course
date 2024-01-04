@@ -141,11 +141,11 @@ rrse = ...
 ```
 ##### 2. Check, Plot and Test the Residual of your predictions.
 In today's lesson, we defined the residuals as the portion of the validation data not explained by the model and assumed the so-called *whiteness condition*, which states that the model's error follows a normal distribution $\epsilon(t) \sim \mathcal{N}(0,\sigma^2) $, with:
-$$
+$
 \begin{align*}
 \epsilon_t = y_t - \hat{y}_t
 \end{align*}
-$$
+$
 
 ##### 2.1 Use an histogram to plot the residuals of your model. Can you quantify the $\sigma^2$.
 ```python
