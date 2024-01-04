@@ -8,8 +8,30 @@ Furthermore, the model should be Single Input Single Output (SISO), and linear.
 As soon you have created your ARX model (**example:** $y_t = a_1 y_{t-1} + a_2 y_{t-2} + b_1 u_{t-1}+ \mathcal{N}(0,0.1))$, send it at alqua@dtu.dk
 
 **NOTE**: Keep your ARX model secret from other groups.
-### Preparation
 
+
+### Setup the Environment and Requirements Installation
+Before we start, please check if you are familiar with creating a conda environment and installing the requirements from the .txt file. Moreover, ensure you can use the conda environment created as a kernel in Visual Studio Code. 
+
+Open your terminal and run the following command:
+
+```bash
+#create a new conda environment
+conda create -n module3_env python=3.11
+#activate your environment 
+conda activate module3_env
+# install jupyter extension
+conda install jupyter
+# install ipykernel extension
+conda install ipykernel
+# install pip extension
+conda install pip
+# Finally, install the libraries needed for this module
+pip install -r requirements.txt
+```
+If the installation fails for some package, please remove it from the requirements.txt file and check the documentation online for an alternative installation.
+
+### Preparation
 In order to create the SISO data you can follow the instructions given in the morning session. 
 Create a function that generates random data and returns a train and test set. 
 You can follow the the steps below: 
