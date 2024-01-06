@@ -1,2 +1,0 @@
--r Module\ 0/requirements.txt
--r Module\ 2/requirements.txt
