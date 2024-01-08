@@ -34,11 +34,11 @@ Here's a brief overview of what you can expect:
 - Digital twins, data-driven modeling, system identification, and model selection.
 - ARX models, Ordinary Least Square estimation, and automated digital twin creation using AI and Machine Learning.
 
-### MODULE 5: Forecasting and Market Analysis
+### MODULE 4: Forecasting and Market Analysis
 - Kalman Filter Estimation, Inflow Forecast, ancillary service markets, and Energinet data services.
 - SARIMA and SARIMAX models for FCR-D forecasts.
 
-### MODULE 6: Real-Time Control
+### MODULE 5: Real-Time Control
 - Model Predictive Control in Python, including exercises on storing MPC using LookUp Tables and Neural Networks.
 - MPC via Imitation Learning: An example of Neural Network Imitor in Pytorch.
 
