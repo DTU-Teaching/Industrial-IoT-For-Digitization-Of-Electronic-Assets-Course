@@ -11,16 +11,16 @@ Technical University of Denmark <br />
 Wind and Energy Systems<b> <br />
 </p>
 
-**Project Title:** System Identification of the Wastewater Pump Station in Rønne.
+**Project Title:** System Identification of the Wastewater Pump Station.
 
 **Deadline:** 19th of January, 2024
 
-This project aims to explore and analyze the wastewater pump station in Rønne through a system identification approach. The primary goal is to understand the operational dynamics of the station and evaluate various strategies to enhance its performance. Students will be divided into three groups, with each group focusing on the same main project but focusing on different analysis and control strategies.
+This project aims to explore and analyze the wastewater pump station through a system identification approach. The primary goal is to understand the operational dynamics of the station and evaluate various strategies to enhance its performance. Students will be divided into three groups, with each group focusing on the same main project but focusing on different analysis and control strategies.
 
 **Common Objectives:**
 
-Each group will work on basic system identification of the Rønne wastewater pump station. This will involve building the static or dynamic model, understanding the basics of system behavior, using the digital twin to forecast future scenarios.
-The dataset can be downloaded [here]().
+Each group will work on basic system identification of the wastewater pump station. This will involve building the static or dynamic model, understanding the basics of system behavior, using the digital twin to forecast future scenarios.
+The dataset can be downloaded from the data folder in this repository.
 
 **Group Objectives:**
 > **Track A**
