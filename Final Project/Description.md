@@ -23,8 +23,7 @@ Each group will work on basic system identification of the Rønne wastewater pum
 The dataset can be downloaded [here]().
 
 **Group Objectives:**
----
-**Track A:**
+> **Track A**
 
 This project focuses on the analysis of the station and the development of a control strategy using MPC. You will be free to use one of the following objectives:
 
@@ -32,10 +31,10 @@ This project focuses on the analysis of the station and the development of a con
   *Objective*: Reduce the overall CO₂ emission of the wastewater station ensuring the proper operational conditions.
 - **Increase the overall Energy Efficiency of the station**
   *Objective*: Design a real-time controller that minimizes the overall energy consumption of the wastewater pump station.
----
 
 
-**Track B:**
+
+> **Track B**
 
 This track will focus on building a digital twin of the wastewater, focusing on the following points.
 
